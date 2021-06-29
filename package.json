@@ -1,0 +1,26 @@
+{
+  "name": "cryptonomicsexchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "videoRecording": false,
+  "reporter": "mocha-multi-reporters",
+  "reporterOptions": {
+    "configFile": "multi-reporter-config.json"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run",
+    "headed": "npm run test -- --headed",
+    "Chromebrowser": "npm run test -- --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-wait-until": "^1.7.1",
+    "mocha": "^9.0.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}

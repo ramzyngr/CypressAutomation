@@ -1,0 +1,12 @@
+{
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 6000,
+  
+    
+    "reporter" : "mochawesome",
+  
+  "env": {
+    "BaseURL": "https://1423:1423@staging-finance.rabbitinternet.com/en/product/health-insurance/questions"
+  },
+  "projectId": "rfiy56"
+}
